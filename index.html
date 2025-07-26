@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baianinha da Serra - Carnes Suínas Premium</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+    /head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <p>&copy; TgTAdS Análise Desenvolvimento de Sistemas</p>
+                <h1>Baianinha da Serra</h1>
+                <p>Sabores que conquistam desde 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="https://www.receiteria.com.br/receitas-com-carne-de-porco/" target="_blank">Receitas</a></li>
+                <li><a href="index2.html" target="_blank"> Pedidos</a> </li>
+                    <li><a href="#contact">Contato</a></li>
+                    
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Os melhores cortes suínos da região</h2>
+            <p>Qualidade e tradição em cada pedaço</p>
+            <a href="#products" class="btn">Conheça nossos produtos</a>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Nossa História</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Fundada em 2021, a Baianinha da Serra nasceu da paixão por carnes suínas de qualidade e do desejo de levar os melhores sabores para a mesa dos nossos clientes.</p>
+                    <p>Começamos como um pequeno negócio familiar e hoje nos orgulhamos de oferecer uma variedade de produtos que mantêm a tradição e o cuidado artesanal em cada etapa da produção.</p>
+                    <p>Nossa missão é proporcionar experiências gastronômicas memoráveis através de produtos de excelência, sempre com respeito aos animais e ao meio ambiente.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1606755456206-b25206bfa433?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fazenda de criação de porcos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="\imagens\FB_IMG_1650556830137~2.jpg" alt="Linguiças">
+                    <h3>Linguiças Artesanais</h3>
+                    <p>Variedade de linguiças tradicionais e especiais, temperadas com especiarias selecionadas.</p>
+                </div>
+                <div class="product-card">
+                    <img src="\imagens\copa3.jfif" alt="Copa Lombo">
+                    <h3>Copa Lombo</h3>
+                    <p>Corte nobre e suculento, perfeito para assar ou grelhar, com marmoreio ideal.</p>
+                </div>
+                <div class="product-card">
+                    <img src="\imagens\costela.jfif" alt="Costelinha">
+                    <h3>Costelinha Suína</h3>
+                    <p>Tradicional costelinha, macia e saborosa, ideal para churrasco ou assar no forno.</p>
+                </div>
+                <div class="product-card">
+                    <img src="\imagens\download.jpeg" alt="Barriga de Porco">
+                    <h3>Barriga de Porco</h3>
+                    <p>Corte saboroso e versátil, perfeito para preparar torresmo ou assados especiais.</p>
+                </div>
+                <div class="product-card">
+                    <img src="\imagens\FB_IMG_1650556757888~2.jpg" alt="Lombinho">
+                    <h3>Lombinho Suíno</h3>
+                    <p>Corte magro e tenro, excelente para bifes, medalhões ou assados inteiros.</p>
+                </div>
+                <div class="product-card">
+                    <img src="\imagens\20220112_201349.jpg" alt="Outros Cortes">
+                    <h3>Kit Feijoada</h3>
+                    <p>Diversos cortes especiais selecionados para atender todas as suas necessidades culinárias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato  e Pedidos</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Manoel Francisco de Paula,  - Siméria</p>
+                    <p><i class="fas fa-phone"></i> (24) 99227-9626</p>
+                    <p><i class="fas fa-envelope"></i> contato@baianinhadaserra.com.br</p>
+                    <p><i class="fas fa-clock"></i> Seg-Sex: 8h-18h | Sáb: 8h-13h</p>
+                </div>
+                <form id="contactForm" class="contact-form" method="post" action="dados">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Baianinha da Serra</h3>
+                    <p>Levando qualidade e sabor para sua mesa desde 2022.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato via Whatsapp</h3>
+                    <p> click no icone</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/5524992279626" target="_blank">
+                            <img src= "\imagens\whatsapp (2).png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Baianinha da Serra. Todos os direitos reservados.</p>
+                <p>&copy; TgTAdS Análise Desenvolvimento de Sistemas</p>
+            </div>
+        </div>
+        <!-- Inicio codigo Contador -->
+        <div  align="center"><a title="tabela fipe" href="https://www.tabelafipeweb.com.br"><img src="https://contador-gratis.com/contadores-de-visitas/260725114824340.gif"></a><div><a href="https://www.contador-gratis.com/" title="contador de visitas">Contador de Visitas</a></div></div>
+<!-- Fim do codigo Contador -->
+    </footer>
+
+     <script src="script.js"></script>   
+</body>
+</html>

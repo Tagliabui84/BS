@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baianinhadaserra/pedidos</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1 id="pedido" class="pedido">Cadastro</h1>
+
+    </header>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato  e Pedidos</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua Manoel Francisco de Paula,  - Siméria</p>
+                    <p><i class="fas fa-phone"></i> (24) 99227-9626</p>
+                    <p><i class="fas fa-envelope"></i> contato@baianinhadaserra.com.br</p>
+                    <p><i class="fas fa-clock"></i> Seg-Sex: 8h-18h | Sáb: 8h-13h</p>
+                </div>
+                <form method="post" action="dados" id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Endereço" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>
